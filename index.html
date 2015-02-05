@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Decider</title>
+
+	<!-- Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is tool where you can decide whether you should join next job or not">
+	<meta name="author" content="Harsh Kothari">
+	<meta name="keywords" content="job">
+
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap-social.css">
+
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jobdecider.js"></script>
+
+</head>
+
+<body>
+	<div class="jumbotron" align="center">
+		<h1>Job Decider</h1>
+		<p>This is tool where you can decide whether you should join next job or not</p>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 text-center">
+				<h3>Current Job Specification</h3>
+
+				<div class="form-group">
+					<input type="text" name="" value="" placeholder="Current Salary" id="c_salary" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<input type="text" name="" value="" placeholder="Current Increment" id="c_increment" class="form-control">
+				</div>				
+			</div>
+
+			<div class="col-sm-6 text-center">
+				<h3>Next Job Specification</h3>
+				<div class="form-group">
+					<input type="text" name="" value="" placeholder="New Salary" id="n_salary" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<input type="text" name="" value="" placeholder="New Increment" id="n_increment" class="form-control">
+				</div>	
+			</div>
+
+			<div class="form-group col-sm-6 col-sm-offset-3">
+				<input type="text" class="form-control" id="exp_salary_increment" placeholder="Enter Expected Salary hike in Percentage">
+			</div>
+
+			<div class="container text-center col-sm-12 ">OR</div>
+
+			<div class="form-group col-sm-6 col-sm-offset-3">
+				<input type="text" class="form-control" id="exp_salary_increment_1" placeholder="Enter Expected Salary in 1st year">
+			</div>
+
+			<div class="form-group col-sm-6 col-sm-offset-3">
+				<input type="text" class="form-control" id="exp_salary_increment_2" placeholder="Enter Expected Salary in 2nd year">
+			</div>
+
+			<div class="form-group col-sm-6 col-sm-offset-3">
+				<input type="text" class="form-control" id="exp_salary_increment_3" placeholder="Enter Expected Salary in 3ed year">
+			</div>
+
+
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="container">
+		<h1 class="text-center">Result</h1>
+
+		<div class="current_specs col-sm-6 col-sm-offset-3 text-center" id="current_specs">
+			<h3>Current Job Result</h3>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 text-center" id="expected_specs">
+				<h3> Expected Job Result</h3>
+			</div>
+
+			<div class="col-sm-6 text-center" id="official_next_specs">
+				<h3> Official Next Job Result </h3>
+			</div>
+		</div>
+
+	</div>
+
+	
+	<!--
+	</br></br></br></br></br>
+
+	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+		<div class="container navbar-text" align="center">
+			<span>Created By Harsh Kothari @MIT License</span>
+			<a class="btn btn-social-icon btn-facebook" href="https://facebook.com/harshkothari410">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/harshkothari410">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a class="btn btn-social-icon btn-github" href="https://github.com/harshkothari410">
+				<i class="fa fa-github"></i>
+			</a>
+			<a class="btn btn-social-icon btn-instagram" href="https://instagram.com/harshkothari410">
+				<i class="fa fa-instagram"></i>
+			</a>
+	-->
+			<!--
+			<span style="float:right;">
+				<script type="text/javascript" src="http://counter6.statcounterfree.com/private/counter.js?c=1a1d761ca65270312300fae74e5a5083">
+				</script>
+			</span>
+			-->
+		</div>
+	</nav>
+
+	<!--
+	<a href="https://github.com/harshkothari410/wordcounter"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	// </script>
+	-->
+</body>
+</html>
