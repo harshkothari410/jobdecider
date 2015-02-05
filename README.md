@@ -1,2 +1,2 @@
-# jobdeider
+# jobdecider
 Tool for decide job
